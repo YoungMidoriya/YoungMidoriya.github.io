@@ -9935,17 +9935,23 @@ body {
   margin-right: 15px;
 }
 /*added after release*/
+
 @media (max-width: 600px) {
-  .uk-hidden-small{
+uk-hidden-small {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: wrap column;
+    -ms-flex-flow: wrap column;
     flex-flow: wrap column;
-  }
-
-  ul.uk-navbar-nav > li.uk-active{
+}
+ul.uk-navbar-nav>li.uk-active {
     width: 55px;
-  }
-
-  .tm-footer{
+}
+tm-footer {
     display: none;
-  }
+}
 }
