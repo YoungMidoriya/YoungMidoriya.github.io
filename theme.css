@@ -9944,4 +9944,8 @@ body {
   ul.uk-navbar-nav > li.uk-active{
     width: 55px;
   }
+
+  .tm-footer{
+    display: none;
+  }
 }
