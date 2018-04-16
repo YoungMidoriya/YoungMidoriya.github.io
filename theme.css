@@ -9935,7 +9935,7 @@ body {
   margin-right: 15px;
 }
 /*added after release*/
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .uk-hidden-small{
     display: flex;
     flex-flow: wrap column;
