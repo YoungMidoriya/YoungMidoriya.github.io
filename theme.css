@@ -9935,9 +9935,8 @@ body {
   margin-right: 15px;
 }
 /*added after release*/
-
 @media (max-width: 600px) {
-uk-hidden-small {
+.uk-hidden-small {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -9951,7 +9950,7 @@ uk-hidden-small {
 ul.uk-navbar-nav>li.uk-active {
     width: 55px;
 }
-tm-footer {
+.tm-footer {
     display: none;
 }
 }
